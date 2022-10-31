@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.mrebikov</groupId>
+    <artifactId>HomeWork</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+<!--    <plugin>-->
+<!--        <groupId>org.codehaus.mojo</groupId>-->
+<!--        <artifactId>findbugs-maven-plugin</artifactId>-->
+<!--        <version>3.0.5</version>-->
+<!--        <configuration>-->
+<!--            <effort>Max</effort>-->
+<!--            <threshold>Low</threshold>-->
+<!--            <xmlOutput>true</xmlOutput>-->
+<!--            <includeTests>true</includeTests>-->
+<!--            <omitVisitors>UnreadFields</omitVisitors>-->
+<!--        </configuration>-->
+<!--        <executions>-->
+<!--            <execution>-->
+<!--                <id>analyze-compile</id>-->
+<!--                <phase>compile</phase>-->
+<!--                <goals>-->
+<!--                    <goal>check</goal>-->
+<!--                </goals>-->
+<!--            </execution>-->
+<!--        </executions>-->
+<!--    </plugin>-->
+
+
+<!--    <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-checkstyle-plugin</artifactId>-->
+<!--        <version>3.1.0</version>-->
+<!--        <configuration>-->
+<!--            <includeTestSourceDirectory>true</includeTestSourceDirectory>-->
+<!--            <configLocation>${project.build.sourceDirectory}/../resources/checkstyle.xml</configLocation>-->
+<!--        </configuration>-->
+<!--        <executions>-->
+<!--            <execution>-->
+<!--                <id>analyze-compile</id>-->
+<!--                <phase>compile</phase>-->
+<!--                <goals>-->
+<!--                    <goal>check</goal>-->
+<!--                </goals>-->
+<!--            </execution>-->
+<!--        </executions>-->
+<!--    </plugin>-->
+
+
+</project>
